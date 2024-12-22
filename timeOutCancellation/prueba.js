@@ -1,8 +1,8 @@
-var cancellable = function (fn, args, t) {
-
+var cancellable = function(fn, args, t) {
+    
     var timeout = setTimeout(() =>
         fn(...args)
-        , t)
+    , t)
 
     return cancelFn = () => clearTimeout(timeout);
 };
