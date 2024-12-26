@@ -1,22 +1,20 @@
 const toRna = (letters) => {
-    let combinations = {
-        G: "C",
-        C: "G",
-        T: "A",
-        A: "U"
-    }
+  let combinations = {
+    G: "C",
+    C: "G",
+    T: "A",
+    A: "U",
+  };
 
-    let result = '';
+  let result = "";
 
-    for (let letter of letters){
-        result += combinations[letter];
-    }
+  for (let letter of letters) {
+    result += combinations[letter];
+  }
 
-    console.log(result);
-    return result;
+  console.log(result);
+  return result;
 };
 
-
-toRna('G');
-toRna('ACGTGGTCTTAA');
-
+toRna("G");
+toRna("ACGTGGTCTTAA");
