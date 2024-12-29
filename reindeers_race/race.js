@@ -1,33 +1,25 @@
 function drawRace(indices, length) {
-  let tracks = [];
+  return indices
+    .map((pos, index) => {
+      // Determina el carril y su desplazamiento
+      const offset = " ".repeat(indices.length - index - 1);
 
-  for (let indice of indices) {
-    tracks.push("~".repeat(length));
-  }
+      // Genera la pista inicial con nieve
+      let track = "~".repeat(length);
 
-  for (let i = 0; i < indices.length; i++) {
-    if (indices[i] === 0) {
-      tracks[i] += ` /${i + 1} ` + "\n" ;
-    } else {
-      let trackArray = tracks[i].split("");
-      trackArray.splice(indices[i], 0, "r");
+      // Calcula la posición real del reno
+      const renoPosition = pos >= 0 ? pos : length + pos;
 
-      tracks[i] = trackArray.join("") + ` /${i + 1}` + `${i !== indices.length-1 ? "\n" : ""}`;
-    }
-  }
+      // Inserta el reno si está en una posición válida
+      if (renoPosition >= 0 && renoPosition < length) {
+        track =
+          track.slice(0, renoPosition) + "r" + track.slice(renoPosition + 1);
+      }
 
-  let add = 0;
-  for (let i = indices.length - 1; i >= 0; i--) {
-    let spaces = tracks[i].split("");
-    console.log("i: ", i, "indices.length: ", indices.length - 1);
-    spaces.unshift(" ".repeat(add));
-
-    add++;
-
-    tracks[i] = spaces.join("");
-  }
-
-  console.log((tracks).join(""));
+      // Devuelve la pista con el número del carril
+      return `${offset}${track} /${index + 1}`;
+    })
+    .join("\n");
 }
 
 drawRace([0, 5, -3], 10);
