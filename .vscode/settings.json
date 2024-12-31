@@ -1,0 +1,41 @@
+{
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#eeac05",
+    "editorBracketHighlight.foreground2": "#0ceeb5",
+    "editorBracketHighlight.foreground3": "#03f638",
+    "editorBracketHighlight.foreground4": "#f3f317",
+    "editorBracketHighlight.foreground5": "#fc9826",
+    "editorBracketHighlight.foreground6": "#8b6f6f82",
+    "editorBracketHighlight.foreground7": "#271121d5",
+    "editorBracketHighlight.foreground8": "#271121d5",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#271121d5"
+  },
+  "workbench.colorTheme": "Solarized Dark",
+  "window.autoDetectColorScheme": false,
+  "editor.fontVariations": false,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#df1db9"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    }
+  },
+  "editor.fontWeight": "normal",
+  "editor.dropIntoEditor.preferences": [],
+  "typescript.preferences.organizeImports": {}
+}
