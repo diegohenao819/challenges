@@ -6,6 +6,8 @@ function calculatePrice(ornaments) {
     "#": 50,
     "@": 100,
   };
+  console.log("ninja")
+  console.log(ornaments[0])
   
   for (let element of ornaments) {
     if (!adornos[element]) {
