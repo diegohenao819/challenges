@@ -1,5 +1,4 @@
 function removeSnow(s) {
-  
   let arreglo = s.split("");
 
   function recursion(arreglo) {
