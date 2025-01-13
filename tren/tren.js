@@ -32,8 +32,9 @@ function moveTrain(board, mov) {
 
 
     }
-    return "none"
+    
   }
+  return "none"
 }
 
 const board = [
