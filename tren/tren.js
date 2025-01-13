@@ -1,33 +1,39 @@
 function moveTrain(board, mov) {
-  const options = {
-    "@": "locomotora",
-    "o": "crash",
-    "*": "eat",
-    ".": "none",
-    "default": "none",
-  };
-
   for (let i = 0; i < board.length; i++) {
     if (board[i].includes("@")) {
       let cabeza = board[i].indexOf("@");
+      let row = i;
+      let column = cabeza;
 
-      if (mov === "U" && i > 0 ) {
-       
-        return options[board[i - 1][cabeza]] ?? options["default"];
+      if (mov === "U") {
+        row -= 1;
       }
-      if (mov === "D" && i < board.length -1) {
-        return options[board[i+1][cabeza]]?? options["default"];
+      if (mov === "D") {
+        row += 1;
       }
-      if (mov === "L" && cabeza > 0) {
-        return options[board[i][cabeza - 1]] ?? options["default"];
+      if (mov === "L") {
+        column -= 1;
       }
-      if (mov === "R" && cabeza < board[0].length-1) {
-        return options[board[i][cabeza + 1]] ?? options["default"];
+      if (mov === "R") {
+        column += 1;
       }
+
+
+      if (row < 0 || row >= board.length || column < 0 || column >= board[0].length) {
+        return "crash";
+      }
+
+
+      let newPosition = board[row][column]
+
+      if(newPosition === "*") return "eat" ;
+      if(newPosition === "o") return "crash" ;
+      if(newPosition === ".") return "none" ;
+
+
     }
+    return "none"
   }
-
-  return "none";
 }
 
 const board = [
