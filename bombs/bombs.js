@@ -35,7 +35,7 @@ function detectBombs(grid) {
 console.log(
   detectBombs([
     [true, true, true],
-    [true, true],
+    [true, true, true],
     [true, true],
     [true, true],
     [true, true],
