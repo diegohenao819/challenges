@@ -36,14 +36,33 @@ function practice(palabra) {
 // // Ejemplo de uso
 // contarAtras(5);
 
-function invertirCadena(palabra) {
-  if (palabra.length === 0) {
-    return "";
-  }
-  // Imprimir el proceso para entenderlo mejor
-  console.log(`Última letra: ${palabra[palabra.length - 1]}`);
+// function invertirCadena(palabra) {
+//   if (palabra.length === 0) {
+//     return "";
+//   }
+//   // Imprimir el proceso para entenderlo mejor
+//   console.log(`Última letra: ${palabra[palabra.length - 1]}`);
 
-  return palabra[palabra.length - 1] + invertirCadena(palabra.slice(0, -1));
+//   return palabra[palabra.length - 1] + invertirCadena(palabra.slice(0, -1));
+// }
+
+// console.log(invertirCadena("hola"));
+
+function palindromo(palabra) {
+
+  const objeto = {}
+  let variable = "key"
+
+  console.log(objeto["variable"] = (objeto["variable"]|| 0) + 1)
+  console.log(objeto["variable"] = (objeto["variable"] || 1) + 1)
+
+
+  // return palabra.split("").reverse().join("") === palabra;
 }
 
-console.log(invertirCadena("hola"));
+console.log(palindromo("ana"));
+
+
+
+
+
