@@ -1,12 +1,16 @@
+
 1. Manipulación de Cadenas
-Palíndromo: Verificar si una cadena es un palíndromo.
+
+- Palíndromo: Verificar si una cadena es un palíndromo. ✅
 Ejemplo: "racecar" → true, "hello" → false
-Anagrama: Verificar si dos cadenas son anagramas.
+- Anagrama: Verificar si dos cadenas son anagramas.✅
 Ejemplo: "listen" y "silent" → true
-Inversión de cadena: Escribir una función que invierta una cadena.
+- Inversión de cadena: Escribir una función que invierta una cadena.✅
 Ejemplo: "hello" → "olleh"
-Frecuencia de caracteres: Contar la cantidad de veces que aparece cada carácter en una cadena.
+- Frecuencia de caracteres: Contar la cantidad de veces que aparece cada carácter en una cadena. ✅
 Ejemplo: "hello" → {h: 1, e: 1, l: 2, o: 1}
+
+
 2. Manipulación de Números
 Número primo: Determinar si un número es primo.
 Ejemplo: 7 → true, 10 → false
