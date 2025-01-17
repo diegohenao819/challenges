@@ -12,14 +12,18 @@ Ejemplo: "hello" → {h: 1, e: 1, l: 2, o: 1}
 
 
 2. Manipulación de Números
-Número primo: Determinar si un número es primo.
+- Número primo: Determinar si un número es primo.✅
 Ejemplo: 7 → true, 10 → false
-Fibonacci: Generar la secuencia de Fibonacci hasta un número dado.
+
+- Fibonacci: Generar la secuencia de Fibonacci hasta un número dado.
 Ejemplo: 5 → [0, 1, 1, 2, 3]
-Factorial: Calcular el factorial de un número.
+
+- Factorial: Calcular el factorial de un número.
 Ejemplo: 5! → 120
-Números armstrong: Verificar si un número es un número armstrong.
+
+- Números armstrong: Verificar si un número es un número armstrong.
 Ejemplo: 153 → true (1³ + 5³ + 3³ = 153)
+
 3. Manipulación de Arreglos
 Eliminar duplicados: Escribir una función para eliminar duplicados en un arreglo.
 Ejemplo: [1, 2, 2, 3] → [1, 2, 3]

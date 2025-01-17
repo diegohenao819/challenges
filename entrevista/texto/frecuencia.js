@@ -13,3 +13,6 @@ function frecuencia(palabra) {
 }
 
 console.log(frecuencia("hello dear friend"));
+
+
+
