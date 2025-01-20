@@ -27,16 +27,20 @@ Ejemplo: 153 → true (1³ + 5³ + 3³ = 153)
 
 
 3. Manipulación de Arreglos
-- Eliminar duplicados: Escribir una función para eliminar duplicados en un arreglo.
+- Eliminar duplicados: Escribir una función para eliminar duplicados en un arreglo. ✅
 Ejemplo: [1, 2, 2, 3] → [1, 2, 3]
 
-- Rotación de un arreglo: Rotar los elementos de un arreglo hacia la izquierda o la derecha.
+- Rotación de un arreglo: Rotar los elementos de un arreglo hacia la izquierda o la derecha. ✅
 Ejemplo: [1, 2, 3, 4] (rotar a la derecha) → [4, 1, 2, 3]
 
-- Buscar el número máximo/mínimo: Encontrar el elemento más grande o más pequeño en un arreglo.
+- Buscar el número máximo/mínimo: Encontrar el elemento más grande o más pequeño en un arreglo. ✅
 Ejemplo: [10, 5, 3] → 10
-Subarreglo con suma máxima (Kadane's Algorithm): Encontrar la suma más grande de un subarreglo contiguo.
+
+- Subarreglo con suma máxima (Kadane's Algorithm): Encontrar la suma más grande de un subarreglo contiguo.
 Ejemplo: [−2,1,−3,4,−1,2,1,−5,4] → 6 ([4,−1,2,1])
+
+
+
 4. Lógica y Simulación
 FizzBuzz: Imprimir números del 1 al 100, pero:
 Si el número es divisible por 3, imprime "Fizz".
