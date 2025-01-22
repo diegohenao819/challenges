@@ -36,17 +36,18 @@ Ejemplo: [1, 2, 3, 4] (rotar a la derecha) → [4, 1, 2, 3]
 - Buscar el número máximo/mínimo: Encontrar el elemento más grande o más pequeño en un arreglo. ✅
 Ejemplo: [10, 5, 3] → 10
 
-- Subarreglo con suma máxima (Kadane's Algorithm): Encontrar la suma más grande de un subarreglo contiguo.
+- Subarreglo con suma máxima (Kadane's Algorithm): Encontrar la suma más grande de un subarreglo contiguo. ❌
 Ejemplo: [−2,1,−3,4,−1,2,1,−5,4] → 6 ([4,−1,2,1])
 
 
 
 4. Lógica y Simulación
-FizzBuzz: Imprimir números del 1 al 100, pero:
+- FizzBuzz: Imprimir números del 1 al 100, pero:
 Si el número es divisible por 3, imprime "Fizz".
 Si es divisible por 5, imprime "Buzz".
 Si es divisible por ambos, imprime "FizzBuzz".
-Juego de escalones (staircase problem): Calcular de cuántas maneras puedes subir una escalera con n escalones si puedes subir 1 o 2 a la vez.
+
+- Juego de escalones (staircase problem): Calcular de cuántas maneras puedes subir una escalera con n escalones si puedes subir 1 o 2 a la vez.
 Ejemplo: n = 3 → 3 maneras (1+1+1, 1+2, 2+1)
 Validar paréntesis balanceados: Determinar si una cadena tiene paréntesis balanceados.
 Ejemplo: "([])" → true, "(]" → false
