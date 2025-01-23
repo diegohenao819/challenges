@@ -47,7 +47,7 @@ Si el número es divisible por 3, imprime "Fizz".
 Si es divisible por 5, imprime "Buzz".
 Si es divisible por ambos, imprime "FizzBuzz".
 
-- Juego de escalones (staircase problem): Calcular de cuántas maneras puedes subir una escalera con n escalones si puedes subir 1 o 2 a la vez.
+- Juego de escalones (staircase problem): Calcular de cuántas maneras puedes subir una escalera con n escalones si puedes subir 1 o 2 a la vez. ✔️
 Ejemplo: n = 3 → 3 maneras (1+1+1, 1+2, 2+1)
 
 - Validar paréntesis balanceados: Determinar si una cadena tiene paréntesis balanceados.
