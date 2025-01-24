@@ -55,12 +55,14 @@ Ejemplo: "([])" → true, "(]" → false
 
 
 5. Estructuras de Datos
-Búsqueda en un árbol: Implementar una función para buscar un valor en un árbol binario.
-Ordenamiento: Implementar algoritmos de ordenamiento como burbuja, selección o inserción.
-Pilas y Colas:
-Implementar una pila (stack) o cola (queue).
-Usar una pila para verificar paréntesis balanceados.
-Hashmaps: Usar un mapa para contar elementos o buscar valores.
+- Búsqueda en un árbol: Implementar una función para buscar un valor en un árbol binario. ❌
+
+- Ordenamiento: Implementar algoritmos de ordenamiento como burbuja, selección o inserción.
+
+- Pilas y Colas:
+- Implementar una pila (stack) o cola (queue).
+- Usar una pila para verificar paréntesis balanceados.
+- Hashmaps: Usar un mapa para contar elementos o buscar valores.
 
 
 6. Problemas de Matemáticas
