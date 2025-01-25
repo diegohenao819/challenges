@@ -1,5 +1,7 @@
 
 
+// - Búsqueda en un árbol: Implementar una función para buscar un valor en un árbol binario.
+
 function searchInTree(tree, target){
     console.log("-------------------")
     console.log(tree)

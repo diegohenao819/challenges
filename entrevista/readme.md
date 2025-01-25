@@ -1,5 +1,5 @@
 
-1. Manipulación de Cadenas
+# 1. Manipulación de Cadenas
 
 - Palíndromo: Verificar si una cadena es un palíndromo. ✅
 Ejemplo: "racecar" → true, "hello" → false
@@ -11,7 +11,7 @@ Ejemplo: "hello" → "olleh"
 Ejemplo: "hello" → {h: 1, e: 1, l: 2, o: 1}
 
 
-2. Manipulación de Números
+# 2. Manipulación de Números
 - Número primo: Determinar si un número es primo.✅
 Ejemplo: 7 → true, 10 → false
 
@@ -26,7 +26,7 @@ Ejemplo: 153 → true (1³ + 5³ + 3³ = 153)
 
 
 
-3. Manipulación de Arreglos
+# 3. Manipulación de Arreglos
 - Eliminar duplicados: Escribir una función para eliminar duplicados en un arreglo. ✅
 Ejemplo: [1, 2, 2, 3] → [1, 2, 3]
 
@@ -41,7 +41,7 @@ Ejemplo: [−2,1,−3,4,−1,2,1,−5,4] → 6 ([4,−1,2,1])
 
 
 
-4. Lógica y Simulación
+# 4. Lógica y Simulación
 - FizzBuzz: Imprimir números del 1 al 100, pero: ✅
 Si el número es divisible por 3, imprime "Fizz".
 Si es divisible por 5, imprime "Buzz".
@@ -54,10 +54,35 @@ Ejemplo: n = 3 → 3 maneras (1+1+1, 1+2, 2+1)
 Ejemplo: "([])" → true, "(]" → false
 
 
-5. Estructuras de Datos
+### 5. Estructuras de Datos
 - Búsqueda en un árbol: Implementar una función para buscar un valor en un árbol binario. ❌
 
-- Ordenamiento: Implementar algoritmos de ordenamiento como burbuja, selección o inserción.
+- Bubble Sort: Implementa el algoritmo de ordenamiento burbuja para ordenar un arreglo de números enteros en orden ascendente. Compara pares de elementos adyacentes e intercámbialos si están en el orden incorrecto.
+Entrada: [5, 3, 8, 1, 2] --> Salida: [1, 2, 3, 5, 8]
+
+Primera pasada:
+[5, 3, 8, 1, 2]  → Compara 5 y 3, intercambia → [3, 5, 8, 1, 2]
+[3, 5, 8, 1, 2]  → Compara 5 y 8, no cambia   → [3, 5, 8, 1, 2]
+[3, 5, 8, 1, 2]  → Compara 8 y 1, intercambia → [3, 5, 1, 8, 2]
+[3, 5, 1, 8, 2]  → Compara 8 y 2, intercambia → [3, 5, 1, 2, 8]
+
+- Selection Sort: Implementa el algoritmo de ordenamiento por selección para ordenar un arreglo de números enteros en orden ascendente. Encuentra el número más pequeño en el arreglo y colócalo en la primera posición, luego repite el proceso con los siguientes elementos.
+Entrada: [29, 10, 14, 37, 13] --> Salida: [10, 13, 14, 29, 37]
+
+[5, 3, 8, 1, 2]  → Encuentra el más pequeño (1), lo intercambia con 5
+[1, 3, 8, 5, 2]  → Encuentra el siguiente más pequeño (2), lo intercambia con 3
+[1, 2, 8, 5, 3]  → Encuentra el siguiente más pequeño (3), lo intercambia con 8
+[1, 2, 3, 5, 8]  → Encuentra el siguiente más pequeño (5), ya está en su lugar
+
+
+- Insertion sort: Implementa el algoritmo de ordenamiento por inserción para ordenar un arreglo de números enteros en orden ascendente. Toma cada número y colócalo en su posición correcta dentro de la parte ya ordenada del arreglo.
+Entrada: [7, 3, 5, 1, 9] --> Salida: [1, 3, 5, 7, 9]
+
+[5] 3 8 1 2  → Toma 3 y lo inserta antes de 5 → [3, 5] 8 1 2
+[3, 5] 8 1 2 → Toma 8, ya está en su lugar → [3, 5, 8] 1 2
+[3, 5, 8] 1 2 → Toma 1 y lo coloca antes de 3 → [1, 3, 5, 8] 2
+[1, 3, 5, 8] 2 → Toma 2 y lo coloca antes de 3 → [1, 2, 3, 5, 8]
+
 
 - Pilas y Colas:
 - Implementar una pila (stack) o cola (queue).
