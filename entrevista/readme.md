@@ -75,7 +75,7 @@ Entrada: [29, 10, 14, 37, 13] --> Salida: [10, 13, 14, 29, 37]
 [1, 2, 3, 5, 8]  → Encuentra el siguiente más pequeño (5), ya está en su lugar
 
 
-- Insertion sort: Implementa el algoritmo de ordenamiento por inserción para ordenar un arreglo de números enteros en orden ascendente. Toma cada número y colócalo en su posición correcta dentro de la parte ya ordenada del arreglo.
+- Insertion sort: Implementa el algoritmo de ordenamiento por inserción para ordenar un arreglo de números enteros en orden ascendente. Toma cada número y colócalo en su posición correcta dentro de la parte ya ordenada del arreglo. ❌
 Entrada: [7, 3, 5, 1, 9] --> Salida: [1, 3, 5, 7, 9]
 
 [5] 3 8 1 2  → Toma 3 y lo inserta antes de 5 → [3, 5] 8 1 2
