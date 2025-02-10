@@ -84,7 +84,7 @@ Entrada: [7, 3, 5, 1, 9] --> Salida: [1, 3, 5, 7, 9]
 [1, 3, 5, 8] 2 → Toma 2 y lo coloca antes de 3 → [1, 2, 3, 5, 8]
 
 
-- Pilas y Colas:
+- Pilas y Colas: ❌
 - Implementar una pila (stack) o cola (queue).
 - Usar una pila para verificar paréntesis balanceados.
 - Hashmaps: Usar un mapa para contar elementos o buscar valores.
